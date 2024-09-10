@@ -1,0 +1,31 @@
+LEAHU MORIE ROBERT ANDREI 321CB
+
+TASK1
+-am stabilit cele 4 cadrane datorita indicilor 
+-fiecare dintre cele 4 cadrane se reduce la prinmul 
+-complexitatea problemei am facut o in tetha de log(n)
+-in variabila inv numar de cate ori ma regasesc in cadranul 4
+, ca sa vad de cate ori il inversez pe 0
+-m am folosit si de problema Z parcurgere din laborator la rezolvarea 
+acestui task 
+
+TASK 2
+-m am gandit ca pentru fiecare litera din cuv gen aabbc sa cautam litera de care avem nev
+si salvam intr o var 1 atunci cand a gasit litera respectiva , iar daca nu salvam -1 si la 
+final practic facem scorul cuvuntalui adunand nr intre ele 
+- retin intr un vector scorurile cuvintelor 
+-dupa am sortat descrescator vectorul de scoruri
+-am parcurs vectorul de scoruri si am facut suma scorurilor
+-daca suma este pozitiva salvam(numaram) intr o noua variabila , iar dupa luam maximul dintre scoruri
+-dupa afisam max_scor , iar daca max_scor este 0 afisam -1
+-O(26log(n)*L) este complexitatea problemei
+
+TASK 3
+- afisarea am folosit o ajutandu ma de problema rucsac din laborator 
+- am salvat divizorii unui numar si  de asemenea complemetele lor intr un vector 
+- in functia maxim aflu maximul intr un vector , iar cu functia mini imi 
+calculez minimul dintre 2 val
+- dupa vedem numarul minim de mutari pentru a ajunge la val i care se calculeaza dinamic,
+cel mai scurt drum pana la suma dintre un nr si divizorul lui fiind 1 + drumul pana la el sau drumul deja calculat anterior 
+-dupa cum am spus anterior afisez rezultatul folosind implementarea problemei rucsacului din lab adaptata la cerinta mea 
+-complexitatea problemei mele este O(n*K)
